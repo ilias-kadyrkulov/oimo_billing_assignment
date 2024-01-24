@@ -1,0 +1,8 @@
+.Footer {
+    @apply h-56 pl-20 pt-20 ;
+    background-color: #212529;
+
+    a {
+        @apply text-slate-200 text-sm;
+    }
+}

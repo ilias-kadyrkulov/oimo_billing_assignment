@@ -1,0 +1,18 @@
+@mixin mainLayoutStyles {
+  flex: 1;
+  flex-direction: column;
+  margin: 0 3px;
+  min-height: 100vh;
+}
+
+.LightMainLayout {
+  @apply flex flex-col px-3;
+  min-height: 100vh;
+  background-color: #f5f5f0;
+}
+
+.DarkMainLayout {
+  @apply flex flex-col px-3;
+  min-height: 100vh;
+  background-color: #21252c;
+}

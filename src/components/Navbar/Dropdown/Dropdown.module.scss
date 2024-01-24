@@ -1,0 +1,8 @@
+.Dropdown {
+  @apply absolute left-0 flex flex-col py-3 px-2 rounded-lg gap-3;
+  background-color: #d8d6d6;
+
+  a {
+    @apply leading-5 text-sm font-medium;
+  }
+}
